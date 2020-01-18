@@ -1,2 +1,2 @@
-# EPAMLab1SeconTask
+# EPAMLab1SecondTask
  
