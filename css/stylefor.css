@@ -1,0 +1,419 @@
+body{
+    margin: 0;
+}
+.header  {
+        height: 1000px;
+        width: 100%;
+        background-color: red;
+       
+    }
+
+    .text img{
+ margin-left: 600px;
+    }
+   #textwork{
+       display: inline-block;
+       margin-top: 100px;
+       margin-left: 800px;
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 40px;
+       font-weight: bolder;
+    }
+    #textwork2{
+        margin-left: 740px;
+        margin-top: -20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight:lighter;
+    }
+    #rect{
+        height: 6px;
+        width: 80px;
+        background-color: white;
+        margin-top: 20px;
+        margin-left: 860px;
+    }
+    .pic{
+        height: 250px;
+        width: 250px;
+        margin-left: 440px;
+        margin-top: -250px;
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+        cursor: pointer;
+       
+    }
+    .pic:hover{
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+
+    }
+    
+    .apparat{
+        
+        height: 250px;
+        width: 250px;
+        margin-top: 100px;
+        margin-left: 690px;
+        overflow: hidden;
+
+    }
+    .apparat:hover{
+        transition: 1s;
+        transform: scale(1.2);
+    }
+    .pic2{
+        
+        height: 250px;
+        width: 250px;
+        margin-top:-250px;
+        margin-left: 940px;
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+        cursor: pointer;
+    }
+    .pic2:hover{
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+    }
+    .tree{
+        
+        height: 250px;
+        width: 250px;
+        margin-top:-250px;
+        margin-left: 1190px;
+        overflow: hidden;
+        
+    }
+    .tree:hover {
+        transition: 1s;
+        border-radius: 70%;
+    }
+    .bridge{
+        
+        height: 250px;
+        width: 250px;  
+        margin-left: 440px;
+        overflow: hidden;
+        display: inline-block;
+    }
+    .pic3{
+        height: 250px;
+        width: 250px;
+        margin-top:-255px;
+        margin-left: 690px;
+        opacity: 1.0;
+        filter: alpha(opacity=100); /*для IE8 и более ранних версий*/
+        cursor: pointer;
+    }
+    .pic3:hover{
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+    }
+    .road{
+        height: 250px;
+        width: 250px;
+        margin-top:-250px;
+        margin-left: 940px;
+        overflow: hidden;
+    }
+    .road:hover {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.9);
+      }
+    .pic4{
+        
+        height: 250px;
+        width: 250px;
+        margin-top:-250px;
+        margin-left: 1190px;
+        opacity: 1.0;
+        filter: alpha(opacity=100); /*для IE8 и более ранних версий*/
+        cursor: pointer;
+    }
+    .pic4:hover{
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+    }
+.apparat img{
+    margin:-0px -20px -40px -130px;
+}
+.bridge img{
+    transition: 1s;
+    display: block;
+}
+.bridge img:hover{
+    transform: scale(1.2);
+}
+.tree img{
+    margin:-0px -20px -40px -70px;
+}
+.road img{
+    margin:-0px -20px -40px -70px;
+}
+
+.content{
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(56, 138, 186);
+}
+
+.content h1
+{
+     display: inline-block;
+    margin: 0;
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content h1{
+    
+    margin-top: 120px;
+    margin-left: 35%;
+}
+.content h4{
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.circle{
+    width: 5em;
+  height: 5em;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-left: 900px;
+  
+}
+.circle h1{
+    margin-top: 15px;
+}
+.register{
+ width: 600px;
+ height: 400px;
+ background-color: white;
+ margin-top: 40px;
+ margin-left: 660px;
+ border-radius: 1.5%;
+}
+.treugol{
+   
+    position: absolute; /* Абсолютное позиционирование */
+    margin-left: 250px;
+    margin-top: -155px;
+    border: 30px solid transparent; 
+    border-bottom: 30px solid white;
+}
+.exit{
+    width: 3em;
+    height: 3em;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 900px;
+    background-color: red;
+    margin-top: -420px;
+    margin-left: 1240px;
+   
+}
+.exit h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#first{
+    display: inline-block;
+    margin-top:20px;
+    margin-left:80px;
+color: gray;
+}
+#second{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -30px;
+    color: gray;
+}
+.exit h2{
+    font-weight: lighter;
+}
+.name{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 3%;
+    box-shadow: gray;
+    border:1px solid rgb(56, 138, 186);
+}
+.name p{
+    color: gray;
+    margin-left: 20px;
+}
+.number{
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 3%;
+    box-shadow: gray;
+    border:1px solid gainsboro;
+}
+.number p{
+    color: gray;
+    margin-left: 20px;
+}
+.company{
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 3%;
+    box-shadow: gray;
+    border:1px solid gainsboro;
+}
+.company p{
+    color: gray;
+    margin-left: 20px;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    border:1px solid gainsboro;
+    background-color: red;
+    margin-top: 300px;
+    margin-left: -350px;
+    border-radius: 1.5%;
+}
+ 
+   .button p{
+       font-weight: bold;
+       text-align:center;
+       font-family: Arial, Helvetica, sans-serif;
+       color: white;
+   }
+   
+.footer{
+    display: flexbox;
+    width: 100%;
+    height:500px;
+    background-color: rgb(41, 44, 46);
+}
+.footer h1{
+    display: inline-block;
+    margin-left: 900px;
+    margin-top: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.face{
+    width:40px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    margin-left: 850px;
+}
+.face img{
+   display: block;
+   margin-top: 5px;
+   margin-left: 15px;
+}
+.twitter{
+    width:40px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    margin-top: -43px;
+    margin-left: 920px;
+}
+.twitter img{
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+ }
+.google{
+    width:40px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    margin-top: -43px;
+    margin-left: 990px;
+}
+.google img{
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+ }
+.linkedin{
+    width:40px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    margin-top: -43px;
+    margin-left: 1060px;
+}
+.linkedin img{
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+ }
+ .footer h5{
+     
+    margin-left: 820px;
+     color: gray;
+ }
+
+
+.email{
+    width: 700px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 600px;
+    box-shadow: gray;
+    background-color: rgb(79, 91, 99);
+}
+.email p{
+    color: gray;
+    display: block;
+    margin-bottom: -10px;
+    margin-left: 20px;
+}
+.button2{
+    height: 50px;
+    width: 150px;
+    border:1px solid gainsboro;
+    margin-top: 50px;
+    margin-left: 900px;
+    color: khaki;
+ 
+   }
+   .twitter:active{
+    border: 1px solid red;
+   }
+   .linkedin:active{
+    border: 1px solid red;
+   }
+   .face:active{
+    border: 1px solid red;
+   }
+   .google:active{
+    border: 1px solid red;
+   }
+   .button2 p{
+       font-weight: bold;
+       text-align:center;
+       font-family: Arial, Helvetica, sans-serif;
+       color: white;
+   }
+   .lowfooter{
+       background-color: rgb(79, 91, 99);
+       height: 100px;
+       width: 100%;
+   }
+   .lowfooter h5{
+       display: inline-block;
+       margin-left: 47%;
+
+       color: silver;
+   }
+        
+        
+    
+    
